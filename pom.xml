@@ -10,6 +10,8 @@
 	<modules>
 		<module>plugins/com.cloud.bundles.plugin</module>
 		<module>plugins/org.scribe</module>
+		<module>plugins/log4j</module>
+
 		<module>features/com.cloud.bundles.feature</module>
 		<module>features/com.cloud.bundles.feature.source</module>
 		<module>repository</module>
