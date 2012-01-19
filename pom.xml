@@ -20,20 +20,20 @@
 		<forceContextQualifier>001</forceContextQualifier>
 		<tycho-version>0.13.0</tycho-version>
 		<spring-version>3.1.0.RELEASE</spring-version>
-		<p2repo-url>http://eclipse.ialto.com</p2repo-url>
+		<p2repo-url>http://172.27.100.79/repo</p2repo-url>
 	</properties>
 	<repositories>
 		<repository>
 			<id>eclipse-indigo</id>
 			<layout>p2</layout>
-			<url>${p2repo-url}/eclipse/updates/3.7milestones/S-3.7RC5-201106131736</url>
+			<url>${p2repo-url}/eclipse/org/releases/indigo/current</url>
 		</repository>
 	</repositories>
 	<profiles>
 	      <profile>
-		<id>wh-office</id>
+		<id>outside</id>
 		<properties>
-		  <p2repo-url>http://172.27.100.79/repo</p2repo-url>
+		  <p2repo-url>http://download.eclipse.org/releases/indigo</p2repo-url>
 		</properties>
 		</profile>
 	</profiles>
